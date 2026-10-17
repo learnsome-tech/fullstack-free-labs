@@ -1,0 +1,19 @@
+{
+  "name": "Production Full-Stack Engineering labs",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": false,
+  "postCreateCommand": "npm ci --no-audit --no-fund",
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    },
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
